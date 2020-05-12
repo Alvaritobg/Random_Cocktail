@@ -34,7 +34,7 @@ const crearCoctel = (coctel) => {
         <hr>
 
 				<ul>
-					${ingredients.map(ingredient => `<li>${ingredient}</li>`).join('')}
+					${ingredients.map(ingredient => `<li><i class="far fa-check-square"></i> ${ingredient}</li>`).join('')}
 				</ul>
         <hr>
 				<p>${coctel.strInstructions}</p>
