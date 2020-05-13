@@ -1,4 +1,4 @@
-//creo constantes con valores que necesitare luego
+/* Autor: Álvaro Bañón García - alvaritobg("@")gmail.com */
 const btn_coctel = document.getElementById('botonCoctel');
 const div_contenedor_coctel = document.getElementById('coctel');
 
@@ -22,14 +22,14 @@ const crearCoctel = (coctel) => {
 
 	const newInnerHTML = `
 		<div class="row">
-			<div class="col-md-5 divimg">
+			<div class="col-12 col-md-12 col-lg-5 divimg">
 
-        <img src="${coctel.strDrinkThumb}" alt="${coctel.strDrink}" class="img-fluid imgcoctel">
+        <img src="${coctel.strDrinkThumb}" alt="${coctel.strDrink}" class="img-fluid imgcoctel mb-3">
 
 
 
 			</div>
-			<div class="col-md-7">
+			<div class="col-12 col-md-12 col-lg-7">
 				<h2 class="">${coctel.strDrink}</h3>
         <hr>
 
